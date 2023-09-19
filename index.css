@@ -1,0 +1,71 @@
+body {
+    background-color: #f2f2f2;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 83.125rem;
+    min-height: calc(100vh - 15.25rem);
+    padding: 0 0.625rem 9.375rem;
+}
+
+/* Small */
+
+@media screen and (min-width: 480px) {}
+
+/* Medium */
+
+@media screen and (min-width: 768px) {
+    #root {
+        padding: 0 2.188rem;
+    }
+}
+
+/* Large */
+
+@media screen and (min-width: 992px) {}
+
+/* Extra Large */
+
+@media screen and (min-width: 1200px) {}
+
+@media print {
+    .no-print,
+    .no-print * {
+        display: none !important;
+    }
+}
+
+.public-DraftEditorPlaceholder-inner,
+.public-DraftStyleDefault-block {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5em;
+}
+
+.public-DraftStyleDefault-block {
+    color: #424242;
+}
+
+.public-DraftEditor-content {
+    min-height: 12.5rem;
+    max-height: 62.5rem;
+    overflow-y: auto;
+}
+
+.MuiSnackbarContent-root {
+    background-color: transparent !important;
+    min-width: 0 !important;
+}
+
+.MuiPaper-root.MuiSnackbarContent-root.MuiPaper-elevation6 {
+    box-shadow: none !important;
+}
+
+.sr-only {
+    display: none;
+}
